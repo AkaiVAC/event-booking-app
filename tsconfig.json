@@ -1,0 +1,18 @@
+{
+    "extends": "@vue/tsconfig/tsconfig.web.json",
+    "include": ["src/**/*", "src/**/*.vue", "types/**/*"],
+    "exclude": ["tests/**/*"],
+    "compilerOptions": {
+        "lib": ["esnext", "DOM"],
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        "types": ["vitest/globals"]
+    },
+    "references": [
+        {
+            "path": "./tsconfig.vite-config.json"
+        }
+    ]
+}

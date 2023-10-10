@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+@import './variables';
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    color: $color-text;
+    position: relative;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: $color-accent-light-1;
+    background-color: $color-text;
+}
+
+*:focus {
+    outline: 2px dashed currentColor;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+    opacity: 0.5;
+}
+
+::-webkit-scrollbar-thumb {
+    color: $color-secondary;
+    background: $color-accent-dark;
+    border-radius: 0.3125em;
+}
+
+body {
+    background-color: $color-background;
+    font-size: $font-size;
+    font-family: $font-family;
+    line-height: $line-height;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1rem;
+    font-weight: normal;
+}
