@@ -161,7 +161,7 @@
 </template>
 <style lang="scss" scoped>
     .form__container {
-        padding: 4rem $container-padding;
+        padding: 2rem $container-padding;
         .form__title {
             text-align: center;
             font-size: 1.5rem;
