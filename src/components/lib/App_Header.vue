@@ -16,10 +16,6 @@
             path: RouteEnum.Help_Page,
             name: 'Help',
         },
-        {
-            path: '#',
-            name: 'Logout',
-        },
     ];
 </script>
 
